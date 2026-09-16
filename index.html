@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#2384ef" />
+  <meta name="description" content="Sevilirsən.az — sevgi ilə seçilmiş sürprizlər və hədiyyələr." />
+  <title>Sevilirsən.az — Tezliklə</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="ambient ambient-1"></div>
+    <div class="ambient ambient-2"></div>
+
+    <header class="topbar" aria-label="Əsas menyu">
+      <a class="brand" href="#top" aria-label="Sevilirsən.az">
+        <span class="brand-smile" aria-hidden="true"></span>
+        <span>SEVİLİRSƏN<span class="brand-dot">.az</span></span>
+      </a>
+      <nav>
+        <a class="active" href="#top">Ana səhifə</a>
+        <a href="#about">Haqqımızda</a>
+        <a href="#contact">Əlaqə</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="video-wrap" id="videoWrap">
+        <video
+          id="heroVideo"
+          class="hero-video"
+          playsinline
+          muted
+          preload="auto"
+          poster="assets/hero-poster.jpg"
+        >
+          <source src="assets/hero.mp4" type="video/mp4" />
+          Brauzeriniz video formatını dəstəkləmir.
+        </video>
+        <div class="video-fallback" aria-hidden="true"></div>
+      </div>
+
+      <!-- <div class="hero-copy" id="heroCopy">
+        <h1>TEZLİKLƏ</h1>
+        <span class="smile smile-bottom" aria-hidden="true"></span>
+      </div> -->
+
+      <a class="scroll-cue" href="#about" aria-label="Aşağı keç">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="info" id="about">
+      <div class="info-card">
+        <p class="eyebrow">BİZ HAZIRLAŞIRIQ</p>
+        <h2>Sevgi ilə seçilən<br><span>sürprizlər.</span></h2>
+        <p>Sevilirsən.az yaxın zamanda sizə sevindirmək istədiyiniz insanlar üçün fərqli və xüsusi seçimlər təqdim edəcək.</p>
+        <a class="button" href="#contact">Xəbərdar et</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <p class="eyebrow">ƏLAQƏ</p>
+        <h2>Bir az səbr.<br>Gözəl şeylər gəlir.</h2>
+      </div>
+      <a class="contact-link" href="mailto:hello@sevilirsen.az">hello@sevilirsen.az</a>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> Sevilirsən.az</span>
+      <span>Sevgi ilə hazırlanır ♥</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
