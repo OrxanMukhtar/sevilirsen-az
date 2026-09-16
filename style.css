@@ -66,6 +66,7 @@ nav a.active::after { content: ""; position: absolute; left: 0; right: 0; bottom
 }
 .video-wrap {
   /* width: min(82vw, 980px); */
+  width: 100%;
   aspect-ratio: 1024 / 954;
   position: relative;
   display: grid;
